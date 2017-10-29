@@ -12,7 +12,7 @@ public class IntroToFileIO {
 		
 		//Read from a file one character at a time
 		try {
-			FileReader fr = new FileReader("src/intro_to_file_io/test.txt");
+			FileReader fr = new FileReader("src/intro_to_file_io/test4.txt");
 			int c = fr.read();
 			while(c != -1){
 				System.out.print((char)c);
